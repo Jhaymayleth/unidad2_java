@@ -2,7 +2,7 @@ package ejercicio4;
 
 /**
  * CORRECTO: Usar interfaces en lugar de herencia múltiple
- * ✅ ESTO SÍ COMPILA
+ * ESTO SÍ COMPILA
  */
 public class ClaseC_CORRECTO extends ClaseA implements InterfazB {
     

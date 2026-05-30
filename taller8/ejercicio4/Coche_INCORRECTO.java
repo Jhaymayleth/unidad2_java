@@ -2,7 +2,7 @@ package ejercicio4;
 
 /**
  * INCORRECTO: Intenta acceder a atributos privados
- * ❌ ESTO NO COMPILA - GENERA ERROR DE COMPILACIÓN
+ * ESTO NO COMPILA - GENERA ERROR DE COMPILACIÓN
  */
 public class Coche_INCORRECTO extends Vehiculo {
     
@@ -17,7 +17,7 @@ public class Coche_INCORRECTO extends Vehiculo {
      * INCORRECTO: Intentar acceder directamente a 'marca'
      */
     public void mostrarMarca() {
-        // ❌ ERROR DE COMPILACIÓN: marca tiene acceso privado
+        // ERROR DE COMPILACIÓN: marca tiene acceso privado
         System.out.println("Marca: " + marca);  // ERROR aquí
     }
     
@@ -25,7 +25,7 @@ public class Coche_INCORRECTO extends Vehiculo {
      * INCORRECTO: Intentar acceder directamente a 'modelo'
      */
     public void mostrarModelo() {
-        // ❌ ERROR DE COMPILACIÓN: modelo tiene acceso privado
+        // ERROR DE COMPILACIÓN: modelo tiene acceso privado
         System.out.println("Modelo: " + modelo);  // ERROR aquí
     }
     
@@ -33,7 +33,7 @@ public class Coche_INCORRECTO extends Vehiculo {
      * INCORRECTO: Intentar acceder directamente a 'ano'
      */
     public void mostrarAno() {
-        // ❌ ERROR DE COMPILACIÓN: ano tiene acceso privado
+        // ERROR DE COMPILACIÓN: ano tiene acceso privado
         System.out.println("Año: " + ano);  // ERROR aquí
     }
 }

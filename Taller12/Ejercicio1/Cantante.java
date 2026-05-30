@@ -1,4 +1,4 @@
-package Taller12;
+package Taller12.Ejercicio1;
 
 public interface Cantante {
     void cantar();

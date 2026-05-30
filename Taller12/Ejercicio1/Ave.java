@@ -1,4 +1,4 @@
-package Taller12;
+package Taller12.Ejercicio1;
 
 public class Ave implements Volador, Cantante {
     private String nombre;

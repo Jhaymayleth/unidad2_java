@@ -2,7 +2,7 @@ package ejercicio4;
 
 /**
  * CORRECTO: Usar getters para acceder a atributos privados
- * ✅ ESTO SÍ COMPILA
+ * ESTO SÍ COMPILA
  */
 public class Coche_CORRECTO extends Vehiculo {
     
@@ -17,28 +17,28 @@ public class Coche_CORRECTO extends Vehiculo {
      * CORRECTO: Usar getter para acceder a marca
      */
     public void mostrarMarca() {
-        System.out.println("Marca: " + getMarca());  // ✅ USA GETTER
+        System.out.println("Marca: " + getMarca());  // USA GETTER
     }
     
     /**
      * CORRECTO: Usar getter para acceder a modelo
      */
     public void mostrarModelo() {
-        System.out.println("Modelo: " + getModelo());  // ✅ USA GETTER
+        System.out.println("Modelo: " + getModelo());  // USA GETTER
     }
     
     /**
      * CORRECTO: Usar getter para acceder a año
      */
     public void mostrarAno() {
-        System.out.println("Año: " + getAno());  // ✅ USA GETTER
+        System.out.println("Año: " + getAno());  // USA GETTER
     }
     
     /**
      * CORRECTO: Acceder a atributo protegido de la clase base
      */
     public void mostrarVelocidad() {
-        System.out.println("Velocidad Máxima: " + velocidadMaxima);  // ✅ protected
+        System.out.println("Velocidad Máxima: " + velocidadMaxima);  // protected
     }
     
     /**

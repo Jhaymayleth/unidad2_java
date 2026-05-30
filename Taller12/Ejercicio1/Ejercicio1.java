@@ -1,4 +1,6 @@
-package Taller12;
+package Taller12.Ejercicio1;
+
+import Taller12.Ejercicio1.Ejercicio1.Ave;
 
 public class Ejercicio1 {
     public static void main(String[] args) {

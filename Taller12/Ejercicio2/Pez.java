@@ -1,4 +1,4 @@
-package Taller12;
+package Taller12.Ejercicio2;
 
 public class Pez implements Nadador, Respirador {
     private String nombre;

@@ -1,10 +1,5 @@
 package Taller7.ejercicio_2;
 
-/**
- * Clase de prueba para Ejercicio 2: Clase CuentaBancaria
- * Demuestra el acceso a miembros públicos y privados
- * Intenta acceder a numeroCuenta (causará error)
- */
 public class PruebaEjercicio2 {
     
     public static void main(String[] args) {
