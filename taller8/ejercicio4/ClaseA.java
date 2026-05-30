@@ -5,3 +5,4 @@ public class ClaseA {
         System.out.println("Método de Clase A");
     }
 }
+

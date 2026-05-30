@@ -13,3 +13,4 @@ class ProfesorT10 extends PersonaT10 {
         System.out.println("Hola, soy el profesor " + nombre + " y mi especialidad es " + especialidad + ".");
     }
 }
+
